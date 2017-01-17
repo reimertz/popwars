@@ -1,0 +1,29 @@
+{
+  "name": "PopWars",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Pierre Reimertz",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "grunt -env heroku"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm":  "1.2.x"
+  },
+  "dependencies": {
+    "consolidate": "*",
+    "express": "*",
+    "swig": "*",
+    "underscore": "*",
+    "grunt-cli": "*",
+    "grunt": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-concat-in-order": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-replace": "*",
+    "grunt-contrib-copy": "*"
+  }
+}

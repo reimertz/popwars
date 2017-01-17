@@ -1,0 +1,46 @@
+{% extends '/base.html' %}
+
+{% block css_head_theme %}
+  <link rel="stylesheet" href="/css/desktop/product.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+  <div id="#app" class="container">
+    <h1 class="text-center"><i class="fa fa-rocket"></i>POPWars</h1>
+    <div class="row">
+      <div class="span6 offset3">
+        <ul class="nav nav-tabs nav-stacked">
+          <li>
+              <span class="media">
+                <span class="media-body">
+                  <button type="button"  class=" btn btn-lg btn-block btn-success start-game">Start game!</button>
+                </span>
+              </span>
+          </li>
+          <li>
+              <span class="media">
+                <span class="media-body">
+                  <p>1. Move your spaceshift with arrows    </p>
+                  <p>2. Shot with space</p>
+                  <p>3. Kill opponent!</p>
+                </span>
+              </span>
+          </li>
+          <li>
+              <span class="media">
+                  <span class="media-body">
+                    
+                  </span>
+              </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block js_body_page %}
+  <script src="/js/desktop/views/app.js"></script>
+
+{% endblock %}
